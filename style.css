@@ -1,0 +1,182 @@
+/*configuração menu*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav img{
+    width: 100px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.fix{
+    position: fixed;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*CONFIGURAÇÃO CORPO*/
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+header{
+    padding-left: 15%;
+    height: 100%;
+    width: 100%;
+    background-image:url("img/img0.png");
+}
+
+h1{
+    text-indent: 50pt;
+    padding-top: 25%;
+    padding-left: 25%;
+}
+
+.tamanhoimg{
+    width: 200px;
+}
+
+header{
+    color: white;
+    font-size: 50pt;
+}
+
+#menu{
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    }
+
+#section-2{
+    padding-left: 5%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+
+#row-1{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: white;
+
+}
+
+#row-2{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+#row-3{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+#row-4{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+#section-lista{
+    margin: 0;
+    padding-left: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+#caixa1{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#caixa2{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#section-lista-2{
+    margin: 0;
+    padding-left: 5%;
+    height: 100%;
+    width: 100%;
+
+}
+
+#caixa3{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#caixa4{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#sobre-nos{
+    margin: 0;
+    padding-left: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+#rodape{
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+    background-color: black;
+}
+
